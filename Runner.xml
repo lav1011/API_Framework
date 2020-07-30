@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/Lav/Downloads/ApiAutomationFrameworkZomato">
+        <classes>
+        <class name="com.framework.testcases.CategoryTestcases">
+            <methods>
+                <include name="checkingTotalCategories"/>
+                <!--<include name="verifyingCategoriesWithInvalidHeader"/>-->
+                <!--<include name="verifyingCategoriesWithInvalidApiKey"/>-->
+                <!--<include name="checkingCitiesWithoutAnyQuery"/>-->
+                <!--<include name="checkingCitiesWithoutAnyApikey"/>-->
+                <!--<include name="searchingCities"/>-->
+                <!--<include name="searchingMultipleCities"/>-->
+                <!--<include name="searchingMultipleCitiesWithRestrictCount"/>-->
+                <!--<include name="searchByCityIds"/>-->
+                <!--<include name="searcCollectionByInvaliadQueryParam"/>-->
+                <!--<include name="searchCollectionByValidQueryParam"/>-->
+                <!--<include name="searchCollectionByCountand"/>-->
+                <!--<include name="searchCollectionWithInvalidCityid_1"/>-->
+                <!--<include name="searchCollectionWithInvalidCityid_2"/>-->
+                <!--<include name="searchEstablishmentsWithvalidCityid"/>-->
+                <!--<include name="checkBasicInfoOfRestaurant"/>-->
+                <!--<include name="checkDetailedInfoOfRestaurant"/>-->
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
